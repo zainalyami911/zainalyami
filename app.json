@@ -4,8 +4,17 @@
     "slug": "zezo-game",
     "version": "1.0.0",
     "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": null,
+      "resizeMode": "contain",
+      "backgroundColor": "#FF5733"
+    },
     "android": {
-      "package": "com.zain.zezogame"
+      "package": "com.zain.zezogame",
+      "adaptiveIcon": {
+        "backgroundColor": "#FF5733"
+      }
     },
     "extra": {
       "eas": {
