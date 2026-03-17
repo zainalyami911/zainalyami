@@ -3,10 +3,32 @@
     "name": "Zezo Game",
     "slug": "zezo-game",
     "version": "1.0.0",
-    "platforms": ["android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.zain.zezogame",
-      "versionCode": 1
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zain.zezogame"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73070494-b778-43d9-9524-747f76634c00"
+      }
     }
   }
 }
