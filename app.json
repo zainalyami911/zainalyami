@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Zezo Game",
+    "slug": "zezo-game",
+    "version": "1.0.0",
+    "platforms": ["android"],
+    "android": {
+      "package": "com.zain.zezogame",
+      "versionCode": 1
+    }
+  }
+}
