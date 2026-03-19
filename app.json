@@ -5,9 +5,15 @@
     "version": "1.0.2",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "icon": null,
+    "splash": {
+      "image": null,
+      "backgroundColor": "#FF5733"
+    },
     "android": {
       "package": "com.zain.zezogame",
-      "targetSdkVersion": 35
+      "targetSdkVersion": 35,
+      "adaptiveIcon": null
     },
     "extra": {
       "eas": {
