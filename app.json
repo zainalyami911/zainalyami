@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Zezo Game",
+    "name": "Zezo Game New",
     "slug": "zezo-game",
-    "version": "1.3.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "android": {
-      "package": "com.zain.zezogame",
+      "package": "com.zain.newzezogame",
       "targetSdkVersion": 35,
       "compileSdkVersion": 35
     },
