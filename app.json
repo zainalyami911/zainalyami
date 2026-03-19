@@ -1,16 +1,14 @@
 {
   "expo": {
-    "name": "Zezo Game New",
+    "name": "Zezo Game",
     "slug": "zezo-game",
-    "version": "1.4.0",
+    "version": "1.7.0",
+    "sdkVersion": "51.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
     "android": {
       "package": "com.zain.newzezogame",
-      "versionCode": 4,
-      "targetSdkVersion": 35,
-      "compileSdkVersion": 35,
-      "jsEngine": "hermes"
+      "versionCode": 7,
+      "targetSdkVersion": 35
     },
     "extra": {
       "eas": {
