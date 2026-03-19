@@ -2,18 +2,13 @@
   "expo": {
     "name": "Zezo Game",
     "slug": "zezo-game",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "icon": null,
-    "splash": {
-      "image": null,
-      "backgroundColor": "#FF5733"
-    },
     "android": {
       "package": "com.zain.zezogame",
       "targetSdkVersion": 35,
-      "adaptiveIcon": null
+      "compileSdkVersion": 35
     },
     "extra": {
       "eas": {
