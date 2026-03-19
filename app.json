@@ -2,12 +2,16 @@
   "expo": {
     "name": "Zezo Game",
     "slug": "zezo-game",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "android": {
       "package": "com.zain.zezogame",
-      "targetSdkVersion": 35
+      "targetSdkVersion": 35,
+      "allowBackup": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "extra": {
       "eas": {
