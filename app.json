@@ -10,12 +10,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#2b1a4a"
     },
+
     "android": {
       "package": "com.zain.newzezogame",
-      "versionCode": 16,
-      "targetSdkVersion": 35,
-      "compileSdkVersion": 35
+      "versionCode": 17
     },
+
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          }
+        }
+      ]
+    ],
+
     "extra": {
       "eas": {
         "projectId": "8461d90d-ff1c-4a5a-a948-34bdd58d54aa"
